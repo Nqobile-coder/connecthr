@@ -70,16 +70,28 @@ a.active {
   text-align: center;
 }
 
-.primary {
+.white-button {
   background: white;
   color: black;
   border: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+a.white-button {
+  text-decoration: none;
+}
+a:hover.white-button {
+  background: red;
+  color: #fff;
 }
 
-.card {
+.pricing-plan {
   background: #6b2b8f;
   color: white;
-  height: 250px;
+  min-height: 300px;
+  border-radius: 15px;
+  border: 1px solid #6b2b8f;
+  padding: 40px;
 }
 
 .price {
@@ -92,4 +104,62 @@ a.active {
 
 .bottom {
   color: white;
+}
+
+.fee-title {
+  /* Centralize div */
+  margin: 0 auto;
+  width: 60%;
+  border: 4px solid #6b2b8f;
+  border-radius: 15px;
+  padding: 20px;
+  color: #6b2b8f;
+}
+.fee-title h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+.tabButtons {
+  margin: 0 auto;
+  width: 40%;
+}
+li.nav-item {
+  list-style: none;
+  display: inline-block;
+}
+ul#myTab {
+  width: 45%;
+  border: 3px solid red;
+  padding: 5px;
+  border-radius: 15px;
+  margin: 20px auto;
+}
+button#home-tab {
+  background: red;
+  padding: 12px;
+  color: #fff;
+  border-radius: 10px;
+}
+.pricing-divider {
+  border-radius: 50px;
+  background: #6b2b8f;
+  height: 8px;
+  width: 60%;
+  margin: 26px auto;
+}
+.pricing-pill {
+  border-radius: 50px;
+  background: #6b2b8f;
+  color: #fff;
+  padding: 20px;
+  width: 22%;
+  position: absolute;
+  left: 38%;
+}
+
+.pricing-plan2 {
+  width: 34%;
+  margin: 0 auto;
 }
